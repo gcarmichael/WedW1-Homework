@@ -45,4 +45,7 @@ def number_of_bank_accounts()
   ACCOUNTS.length
 end
 
+def first_bank_account_holder()
+  ACCOUNTS.first[:holder_name]
+end
 
