@@ -49,3 +49,21 @@ def first_bank_account_holder()
   ACCOUNTS.first[:holder_name]
 end
 
+def print_owner_names()
+  for name in ACCOUNTS
+    puts name[:holder_name]
+  end
+end
+
+def total_cash_in_bank
+  total_amount = 0
+  for account in ACCOUNTS
+    total_amount = total_amount + account[:amount]
+  end
+  total_amount
+end
+
+
+
+
+
