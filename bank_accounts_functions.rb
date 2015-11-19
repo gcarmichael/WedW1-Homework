@@ -67,7 +67,7 @@ def last_bank_account_holder()
   ACCOUNTS.last[:holder_name]
 end
 
-def aveage_cash_in_bank()
+def average_cash_in_bank()
   average_amount = 0
   for account in ACCOUNTS
     average_amount = average_amount + account[:amount]

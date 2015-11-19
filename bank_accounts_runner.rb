@@ -26,7 +26,7 @@ puts "last bank account owner is #{last_bank_owner}"
 puts "\n"
 
 ###average bank account value
-average_cash = aveage_cash_in_bank()
+average_cash = average_cash_in_bank()
 puts "average cash #{average_cash}"
 puts "\n"
 
